@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-screen {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #1e3a8a, #6b21a8);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-container {
+    text-align: center;
+    padding: 3rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .home-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .home-title {
+      font-size: 3rem;
+    }
+  }
+  
+  .home-description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .home-description {
+      font-size: 1.25rem;
+    }
+  }
+  
+  /* Grid Layout */
+  .home-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .home-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* Card Styles */
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .icon {
+    display: block;
+    margin: 0 auto 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  /* Button Styles */
+  .button {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-blue {
+    background-color: #3b82f6;
+  }
+  
+  .button-blue:hover {
+    background-color: #2563eb;
+  }
+  
+  .button-green {
+    background-color: #10b981;
+  }
+  
+  .button-green:hover {
+    background-color: #059669;
+  }
+  
+  .button-purple {
+    background-color: #9333ea;
+  }
+  
+  .button-purple:hover {
+    background-color: #7e22ce;
+  }
+  

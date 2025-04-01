@@ -1,0 +1,65 @@
+.solar-system-heading{
+    font-size: 2rem;
+}
+
+.solar-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px;
+    flex-wrap: wrap;
+}
+
+.solar-model-card {
+    height: 450px;
+    width: 350px;
+    border: 0px solid rgb(57, 57, 57);
+    box-shadow: 2px 2px 5px 5px rgba(204, 204, 204, 0.69) ;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.solar-model-card img {
+    border-radius: 10px;
+    height: 60%;
+    width: 350px;
+}
+
+.model-name {
+    margin-left: 10px;
+    margin-bottom: 9px;
+    font-size: 1.4rem;
+}
+
+.model-desc {
+    margin-bottom: 14px;
+    margin-left: 10px;
+
+}
+
+.visit-model {
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgb(38, 144, 250);
+    display: inline;
+    padding: 4px 13px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+#drenderer{
+height: 100vh;
+}
+
+#solar-modal-f{
+    width: 95%;
+    height: 95vh;
+    border: 0px solid red;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+#solar-modal-f iframe{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}

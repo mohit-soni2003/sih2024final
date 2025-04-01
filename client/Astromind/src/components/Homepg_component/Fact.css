@@ -1,0 +1,50 @@
+.facts-container{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.facts-part1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border: 0px solid red;
+    padding-left: 40px;
+}
+.fact-heading{
+    color: rgb(65, 202, 244);
+    font-size: 2.3rem;
+}
+.fact-display{
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+.curious_question_display{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: white;
+}
+.curious_question{
+    margin-top: 20px;
+    color: rgb(251, 251, 172);
+    font-size: 2rem;
+}
+.curious_ques_img{
+    width: 200px;
+}
+.curious_ques_img img{
+    width: 100%;
+    height: 100%;
+}
+.facts-part2{
+    width: 500px;
+    border: 0px solid red;
+    height: 500px ;
+    margin-right: 100px;
+    
+}
+.video-content{
+    width: 100%;
+    height: 100%;
+}

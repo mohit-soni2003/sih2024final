@@ -1,0 +1,95 @@
+/* Instructors.css */
+
+.instructors-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .instructors-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  @media (min-width: 1024px) {
+    .instructors-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .instructor-card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  @media (min-width: 768px) {
+    .instructor-card {
+      flex-direction: row;
+    }
+  }
+  
+  .instructor-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  @media (min-width: 768px) {
+    .instructor-image {
+      width: 33%;
+    }
+  }
+  
+  .instructor-details {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .instructor-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .instructor-specialty {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .instructor-bio {
+    margin-bottom: 20px;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    color: #666;
+  }
+  
+  .icon.telescope {
+    color: #6b46c1;
+  }
+  
+  .icon.award {
+    color: #38a169;
+  }
+  
+  .icon.globe {
+    color: #3182ce;
+  }

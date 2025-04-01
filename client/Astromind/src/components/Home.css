@@ -1,0 +1,24 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  color: azure;
+  font-size: 5rem;
+  margin: 30vh 80px;
+  margin-top: 47vh;
+  width:50%;
+}

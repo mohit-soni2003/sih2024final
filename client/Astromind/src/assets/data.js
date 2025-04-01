@@ -1,0 +1,42 @@
+export const data =[
+    {
+        question: "Which planet do not have rings around them ?",
+        option1: "Jupiter",
+        option2: "Neptune",
+        option3 : "Mars",
+        option4: "Saturn",
+        ans:3,
+    },
+    {
+        question: "Which is Earth's satellite ?",
+        option1: "GSLV",
+        option2: "NASA's Rover",
+        option3 : "Moon",
+        option4: "Van Allen",
+        ans:3,
+    },
+    {
+        question: "How long the sunrays take to reach Earth ?",
+        option1: "7 minutes",
+        option2: "12 minutes",
+        option3 : "4 minutes",
+        option4: "8 minutes",
+        ans:4,
+    },
+    {
+        question: "Which planet spins backwards relative to others ?",
+        option1: "Saturn",
+        option2: "Venus",
+        option3 : "Neptune",
+        option4: "Mars",
+        ans:2,
+    },
+    {
+        question: "What is the name of first staellite sent into space ?",
+        option1: "Spacex",
+        option2: "Space Rover",
+        option3 : "Sputnik",
+        option4: "GSLV",
+        ans:3,
+    },
+]
